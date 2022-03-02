@@ -293,7 +293,7 @@ strong {
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
         display: inline-flex; }
-  .pr__section.section-slider .owl-stage-ouer {
+  .pr__section.section-slider .owl-stage-outer {
     padding: 15px; }
   .pr__section.section-slider .owl-dots {
     display: -webkit-box;
