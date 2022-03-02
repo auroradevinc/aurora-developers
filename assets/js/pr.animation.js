@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     anime.timeline({
         easing: 'easeOutExpo',
-        duration: 700,
+        duration: 500,
     }).add({
         targets: '.pr__header .logo',
         opacity: [0, 1],
