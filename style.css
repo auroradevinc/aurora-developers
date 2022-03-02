@@ -293,6 +293,8 @@ strong {
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
         display: inline-flex; }
+  .pr__section.section-slider .owl-stage-ouer {
+    padding: 15px; }
   .pr__section.section-slider .owl-dots {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -721,21 +723,18 @@ body.single-post .hero-content {
         -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
         transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01); }
 
-.item.work-box:hover > .outer {
+.item.work-box > .outer {
   -webkit-box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.2);
-  -webkit-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  transform: scale(0.95); }
-  .item.work-box:hover > .outer > .image {
+  box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.2); }
+  .item.work-box > .outer > .image {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%); }
-  .item.work-box:hover > .outer > .inner {
+  .item.work-box > .outer > .inner {
     background-color: rgba(0, 0, 0, 0.7); }
-    .item.work-box:hover > .outer > .inner > * {
+    .item.work-box > .outer > .inner > * {
       -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
       transform: translateX(0);
@@ -2163,6 +2162,31 @@ a.uk-slidenav {
       color: #FFFFFF; }
     .item.feature-box:hover > .inner .line, .item.feature-box.uk-active > .inner .line {
       border-color: #FFFFFF !important; }
+
+  .item.work-box .outer .inner {
+    background-color: transparent; }
+    .item.work-box .outer .inner > * {
+      opacity: 0; }
+
+  .item.work-box:hover > .outer {
+    -webkit-box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95); }
+    .item.work-box:hover > .outer > .image {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%); }
+    .item.work-box:hover > .outer > .inner {
+      background-color: rgba(0, 0, 0, 0.7); }
+      .item.work-box:hover > .outer > .inner > * {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1; }
 }
 
 @media (min-width: 1200px) {

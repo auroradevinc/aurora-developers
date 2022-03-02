@@ -73,7 +73,7 @@ jQuery(document).ready(function ($) {
             autoplay: autoplay,
             margin: margin,
             autoplayHoverPause: true,
-            smartSpeed: 450,
+            smartSpeed: 700,
             loop: loop,
             center: center,
             dots: dots,
