@@ -434,20 +434,21 @@ body.single-post .hero-content {
     .item.feature-box > .inner .description {
       margin: 0; }
   .item.feature-box:hover > .inner, .item.feature-box.uk-active > .inner {
-    background-color: #00c9b7 !important;
+    /* background-color: #00c9b7 !important; */
     -webkit-box-shadow: 0 10px 50px 1px rgba(0, 0, 0, 0.3);
     box-shadow: 0 10px 50px 1px rgba(0, 0, 0, 0.3);
     -webkit-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
     -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
     transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01); }
-    .item.feature-box:hover > .inner .icon,
+    /* .item.feature-box:hover > .inner .icon,
     .item.feature-box:hover > .inner .title,
     .item.feature-box:hover > .inner .description, .item.feature-box.uk-active > .inner .icon,
     .item.feature-box.uk-active > .inner .title,
     .item.feature-box.uk-active > .inner .description {
-      color: #FFFFFF; }
-    .item.feature-box:hover > .inner .line, .item.feature-box.uk-active > .inner .line {
-      border-color: #FFFFFF !important; }
+      color: #FFFFFF; 
+    } */
+    /* .item.feature-box:hover > .inner .line, .item.feature-box.uk-active > .inner .line {
+      border-color: #FFFFFF !important; } */
 
 /* Section: Services Boxes */
 .item.service-box {
@@ -2148,6 +2149,19 @@ a.uk-slidenav {
   /* Section: Hero */
   .pr__hero__wrap {
     background-position: 125%; } }
+
+@media (min-width: 1100px) {
+  .item.feature-box:hover > .inner, .item.feature-box.uk-active > .inner {
+    background-color: #00c9b7 !important; }
+    .item.feature-box:hover > .inner .icon,
+    .item.feature-box:hover > .inner .title,
+    .item.feature-box:hover > .inner .description, .item.feature-box.uk-active > .inner .icon,
+    .item.feature-box.uk-active > .inner .title,
+    .item.feature-box.uk-active > .inner .description {
+      color: #FFFFFF; }
+    .item.feature-box:hover > .inner .line, .item.feature-box.uk-active > .inner .line {
+      border-color: #FFFFFF !important; }
+}
 
 @media (min-width: 1200px) {
   /* Section: Hero */
