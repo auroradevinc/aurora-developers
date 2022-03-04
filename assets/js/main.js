@@ -79,6 +79,7 @@ jQuery(document).ready(function ($) {
             dots: dots,
             dotsEach: true,
             nav: nav,
+            lazyLoad: false,
             responsive: {
                 0: {
                     items: 1
