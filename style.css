@@ -294,7 +294,8 @@ strong {
         display: -ms-inline-flexbox;
         display: inline-flex; }
   .pr__section.section-slider .owl-stage-outer {
-    padding: 15px; }
+    padding-top: 15px;
+    padding-bottom: 15px; }
   .pr__section.section-slider .owl-dots {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -672,7 +673,8 @@ body.single-post .hero-content {
 
 /* Section: Works Boxes */
 .item.work-box {
-  border-radius: 15px; }
+  border-radius: 15px;
+  padding: 10px; }
   .item.work-box > .outer {
     border-radius: 15px;
     background-color: #fafafa;
