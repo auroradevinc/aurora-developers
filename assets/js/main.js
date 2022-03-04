@@ -80,6 +80,7 @@ jQuery(document).ready(function ($) {
             dotsEach: true,
             nav: nav,
             lazyLoad: false,
+            lazyLoadEager: 100,
             responsive: {
                 0: {
                     items: 1
